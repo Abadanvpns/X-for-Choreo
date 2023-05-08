@@ -5,14 +5,14 @@ ARG WSPATH=choreo \
     UUID=0edd5898-1048-447b-a588-a1ea85e48345 \
     NEZHA_SERVER=data.seales.nom.za \
     NEZHA_PORT=443 \
-    NEZHA_KEY= \
+    NEZHA_KEY=VEGcOrG5knppwStUOn \
     NEZHA_TLS=1 \
     WEB_DOMAIN=cho.vpsonly.eu.org \
     ARGO_DOMAIN=cho-ws.vpsonly.eu.org \
     SSH_DOMAIN=cho-ssh.vpsonly.eu.org \
-    ARGO_AUTH= \
+    ARGO_AUTH={"AccountTag":"9cc9e3e4d8f29d2a02e297f14f20513a","TunnelSe cret":"9cc9e3e4d8f29d2a02e297f14f45313a"} \
     WEB_USERNAME=admin  \
-    WEB_PASSWORD=admin
+    WEB_PASSWORD=password
 
 # 此处不用改，保留即可
 ENV NEZHA_SERVER=$NEZHA_SERVER \
